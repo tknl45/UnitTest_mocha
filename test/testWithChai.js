@@ -1,6 +1,5 @@
 
 //引用chai
-const should = require('chai').should;
 const assert = require('chai').assert;
 const expect = require('chai').expect;
 
@@ -29,6 +28,7 @@ describe('測試 add', () => {
 describe('測試 sub', () => {
     it('1 - 2 = -1', () => {
         expect(sub(1, 2)).to.equal(-1);
+        
     });
 
     it('11 - 4 = 7', () => {
