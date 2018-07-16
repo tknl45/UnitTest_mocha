@@ -1,0 +1,17 @@
+{
+  "name": "mocha-example",
+  "version": "1.0.0",
+  "description": "A mocha unit test example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "45",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "5.2.0",
+    "should": "13.2.1",
+    "supertest": "^3.1.0"
+  }
+}
